@@ -1,0 +1,9 @@
+> # Visualizando os 5 melhores resultados por F1-score
+> top_f1 <- resultados_knn[order(-resultados_knn$f1), ][1:5, ]
+> print(top_f1)
+            k  acuracia  precisao    recall        f1
+Accuracy21 22 0.8666667 0.8333333 0.9210526 0.8750000
+Accuracy22 23 0.8533333 0.8139535 0.9210526 0.8641975
+Accuracy23 24 0.8533333 0.8139535 0.9210526 0.8641975
+Accuracy18 19 0.8533333 0.8292683 0.8947368 0.8607595
+Accuracy19 20 0.8533333 0.8292683 0.8947368 0.8607595
